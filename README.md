@@ -1,8 +1,6 @@
 # Coronavirus latest update
 
-## User can see worldwide Coronavirus figures and the statistics across Europe by country.
-
-## Data fetched from https://covid19.mathdro.id/api
+# Get the latest information from the [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) about Coronavirus.
 
 **Tachnology:**
 
