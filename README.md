@@ -1,6 +1,6 @@
 # Coronavirus latest update
 
-# Get the latest information from the [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) about Coronavirus.
+## Get the latest information from the [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019) about Coronavirus.
 
 **Tachnology:**
 
