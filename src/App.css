@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+.btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e62739;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btnScrollToTop:active {
+  background: #cc2333;
+}
