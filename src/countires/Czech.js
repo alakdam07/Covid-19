@@ -58,7 +58,6 @@ function CzechRepublic() {
 
   React.useEffect(() => {
     fetchData();
-    // eslint-disable-next-line no-use-before-define
   }, []);
 
   const fetchData = async () => {
@@ -68,7 +67,7 @@ function CzechRepublic() {
         `https://covid19.mathdro.id/api/countries/${Country}`
       );
       const data = await response.json();
-      console.log(data);
+      //console.log(data);
       setstate({
         confirmed: data.confirmed,
         deaths: data.deaths,
