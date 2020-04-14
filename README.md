@@ -24,4 +24,4 @@
 
 ## Author
 
-[Alak Dam](http://www.alakdam.com/)
+[Alak Dam](http://www.alakdam.com/).
