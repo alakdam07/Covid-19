@@ -22,6 +22,6 @@
   - [x] Create [Netlify](https://www.netlify.com/) app
   - [x] Deployment complete
 
-## Copyright
+## Author
 
-Owned by [Alak Dam](http://www.alakdam.com/)
+[Alak Dam](http://www.alakdam.com/)

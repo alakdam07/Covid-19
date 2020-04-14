@@ -5,7 +5,7 @@ import moment from "moment";
 
 function CzechRepublic() {
   // eslint-disable-next-line
-  const [Country, setCountry] = React.useState("FI");
+  const [Country, setCountry] = React.useState("Czechia");
   // eslint-disable-next-line
   const [loading, setLoading] = React.useState(false);
   const [state, setstate] = React.useState({
@@ -58,6 +58,7 @@ function CzechRepublic() {
 
   React.useEffect(() => {
     fetchData();
+    // eslint-disable-next-line no-use-before-define
   }, []);
 
   const fetchData = async () => {
@@ -67,7 +68,7 @@ function CzechRepublic() {
         `https://covid19.mathdro.id/api/countries/${Country}`
       );
       const data = await response.json();
-      //console.log(data);
+      console.log(data);
       setstate({
         confirmed: data.confirmed,
         deaths: data.deaths,
